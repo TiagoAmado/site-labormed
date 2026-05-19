@@ -150,6 +150,16 @@ nav ul li a.active::after {
   border-radius: 2px;
 }
 
+.nav-parceiro {
+  color: var(--red) !important;
+  border: 1px solid rgba(232,64,64,0.4);
+  border-radius: 6px;
+  margin-left: 4px;
+}
+.nav-parceiro:hover { background: rgba(232,64,64,0.12) !important; border-color: var(--red); }
+.nav-parceiro.active { color: var(--white) !important; background: var(--red) !important; border-color: var(--red); }
+.nav-parceiro.active::after { display: none; }
+
 /* Nav actions */
 .nav-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 .btn-comprar {
