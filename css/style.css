@@ -73,6 +73,7 @@ header {
 
 /* Logo */
 .logo { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+.logo-img { height: 44px; width: auto; display: block; object-fit: contain; }
 .logo-mark {
   display: flex;
   align-items: center;
